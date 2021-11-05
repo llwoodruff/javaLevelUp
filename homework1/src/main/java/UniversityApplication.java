@@ -50,12 +50,12 @@ public class UniversityApplication {
         /**Добавление факультета**/
         String facultyName = "Факультет романо-германской филологии2";
         Long universityId = 12L;
-        //facultyRepository.addFaculty(facultyName, universityId);
+        facultyRepository.addFaculty(facultyName, universityId);
 
 
         /**УДаление университета**/
         universityId = 12L;
-        //universityRepository.deleteUniversity(universityId);
+        universityRepository.deleteUniversity(universityId);
 
         /**Обновление данных об университете**/
         universityId = 12L;
